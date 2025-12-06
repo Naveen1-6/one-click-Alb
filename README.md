@@ -1,4 +1,13 @@
-# One-Click ALB-ASG Private EC2 Deployment
-
-## Steps to Deploy
-# one-click-Alb
+Internet
+    |
+Application Load Balancer  (Public subnets)
+    |
+Target Group
+    |
+Auto Scaling Group
+    |
+Private EC2 instances (No public IP)
+    |
+NAT Gateway   (egress)
+    |
+Internet Gateway
