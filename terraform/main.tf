@@ -72,7 +72,7 @@ resource "aws_security_group" "ec2_sg" {
 resource "aws_launch_template" "lt" {
   name_prefix   = "asg-lt"
   image_id      = "ami-0f58b397bc5c1f2e8" # Amazon Linux 2
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
 
   user_data = filebase64("${path.module}/userdata.sh")
 
