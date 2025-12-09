@@ -7,7 +7,7 @@ mkdir -p /opt/app
 cd /opt/app
 
 echo "Cloning repo..."
-git clone https://github.com/YOUR_GITHUB/one-click-asg-alb.git
+git clone https://github.com/Naveen1-6/one-click-asg-alb.git
 cd one-click-asg-alb/app
 
 npm install
